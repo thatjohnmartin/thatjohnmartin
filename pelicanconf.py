@@ -19,13 +19,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = ()
+MENUITEMS = (
+	('About', 'pages/about.html'),
+	('Email', 'john@lonepixel.com'),
+	('Twitter', 'http://twitter.com/johnm'),
+	('LinkedIn', 'http://www.linkedin.com/in/thatjohnmartin'),
+	('Github', 'http://github.com/thatjohnmartin'),
+)
 
-# Social widget
-SOCIAL = ()
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

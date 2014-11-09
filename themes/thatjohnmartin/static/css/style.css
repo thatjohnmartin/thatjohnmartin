@@ -1,3 +1,108 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    color: #333;
+	width: 600px;
+	margin: 30px auto 20px;
+}
+
+#banner {
+	text-align: center;
+}
+
+#banner img.profile {
+	border-radius: 100%;
+}
+
+#banner h1 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#banner h1 a {
+	color: #333;
+	text-decoration: none;
+}
+
+#menu {
+	border-bottom: 1px dotted #ccc;
+	text-align: center;
+}
+
+#menu ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+#post-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.hentry {
+	border-bottom: 1px dotted #ccc;
+}
+
+.paginator {
+	text-align: center;
+}
+
+#page-footer {
+	text-align: center;
+}
+
+/* not yet updated... */
+
+h1, h2 {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 600;
+    font-style: normal;
+    color: #111;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+hr.top-divider {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.home hr.top-divider {
+    width: 200px;
+    border-style: dotted;
+    border-color: #aaa;
+    margin-bottom: 20px;
+}
+
+.posts .post {
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px dotted #ccc;
+}
+.posts .post img {
+	display: block;
+	margin: 30px auto;
+}
+
+.posts :last-child {
+	border-bottom: none;
+}
+
+blockquote {
+    font-size: 17px;
+}
+
+.blog-list {
+    list-style: none;
+    padding-left: 0;
 }
