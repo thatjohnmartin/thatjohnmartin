@@ -1,4 +1,4 @@
 thatjohnmartin
 ==============
 
-Personal blog
+Not the other one.
