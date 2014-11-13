@@ -1,5 +1,5 @@
 body {
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-family: 'Chronicle SSm A', 'Chronicle SSm B';
     font-weight: 300;
     font-style: normal;
     font-size: 17px;
@@ -10,6 +10,7 @@ body {
 
 #banner {
 	text-align: center;
+	border-bottom: 1px dotted #ccc;
 }
 
 #banner img.profile {
@@ -18,7 +19,7 @@ body {
 
 #banner h1 {
 	font-size: 20px;
-	font-weight: normal;
+    font-weight: 300;    
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
@@ -29,9 +30,12 @@ body {
 }
 
 #menu {
-	border-bottom: 1px dotted #ccc;
 	text-align: center;
-}
+    margin: 30px 0;
+/*    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-size: 12px;
+*/}
 
 #menu ul {
 	list-style-type: none;
@@ -40,37 +44,70 @@ body {
 
 #menu ul li {
 	display: inline-block;
+    margin:0 3px;
 }
 
 #post-list {
 	list-style-type: none;
 	padding-left: 0;
+    margin-top: 0;
 }
 
 .hentry {
 	border-bottom: 1px dotted #ccc;
+    padding-bottom: 20px;
+    padding-top: 14px;
+}
+
+.hentry abbr.published {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.hentry p {
+    line-height: 1.4;
 }
 
 .paginator {
 	text-align: center;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-size: 12px;    
 }
 
-#page-footer {
+#page-footer address {
 	text-align: center;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-size: 12px;
+    color: #aaa;
+    font-style: normal;
 }
-
-/* not yet updated... */
 
 h1, h2 {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
     font-weight: 600;
-    font-style: normal;
     color: #111;
 }
 
 h2 {
     font-size: 22px;
 }
+
+h2.entry-title {
+    margin-bottom: 0;
+}
+
+h2.entry-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+/* not yet updated... */
+
+/*
 
 hr.top-divider {
     margin-top: 0;
@@ -106,3 +143,5 @@ blockquote {
     list-style: none;
     padding-left: 0;
 }
+
+*/

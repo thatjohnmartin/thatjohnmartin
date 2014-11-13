@@ -41,9 +41,12 @@
 	<body id="index" class="home">
 
 		<header id="banner">
-			<img class="profile" src="{{ SITEURL }}/theme/images/profile.jpg">
+			<!-- <img class="profile" src="{{ SITEURL }}/theme/images/profile.jpg"> -->
 			<h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
 		</header><!-- /#banner -->
+
+		{% block content %}
+		{% endblock %}
 
 		<nav id="menu">
 			<ul>
@@ -64,13 +67,9 @@
 			</ul>
 		</nav><!-- /#menu -->
 
-		{% block content %}
-		{% endblock %}
-
 		<footer id="page-footer">
 			<address id="about" class="vcard body">
-				Powered by <a href="http://getpelican.com/">Pelican</a>,
-				which takes great advantage of <a href="http://python.org">Python</a>.
+				&copy; 2014 John Martin
 			</address><!-- /#about -->
 		</footer><!-- /#contentinfo -->
 	</body>
