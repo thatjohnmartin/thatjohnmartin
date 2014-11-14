@@ -19,15 +19,15 @@ body {
 }
 
 #banner h1 {
-	font-size: 32px;
-    font-weight: 700;
-	margin-top: 15px;
+	font-size: 28px;
+    font-weight: 300;
+	margin-top: 16px;
 	margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 #banner h1 a {
-	color: #333;
+	color: #3F5874;
 	text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
 }
 
 h2.entry-title {
@@ -111,7 +111,7 @@ h2.entry-title {
 
 h2.entry-title a {
     text-decoration: none;
-    color: #111;
+    color: #3A414C;
 }
 
 /* not yet updated... */
