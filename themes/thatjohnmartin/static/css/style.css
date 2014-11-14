@@ -10,7 +10,8 @@ body {
 
 #banner {
 	text-align: center;
-	border-bottom: 1px dotted #ccc;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 #banner img.profile {
@@ -18,10 +19,11 @@ body {
 }
 
 #banner h1 {
-	font-size: 20px;
-    font-weight: 300;    
+	font-size: 32px;
+    font-weight: 700;
 	margin-top: 15px;
 	margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 #banner h1 a {
@@ -31,11 +33,12 @@ body {
 
 #menu {
 	text-align: center;
-    margin: 30px 0;
-/*    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
     font-weight: 300;
-    font-size: 12px;
-*/}
+    font-size: 14px;
+}
 
 #menu ul {
 	list-style-type: none;
@@ -53,10 +56,14 @@ body {
     margin-top: 0;
 }
 
-.hentry {
+#post-list li {
 	border-bottom: 1px dotted #ccc;
     padding-bottom: 20px;
     padding-top: 14px;
+}
+
+#post-list :last-child {
+	border-bottom: none;
 }
 
 .hentry abbr.published {
@@ -74,7 +81,9 @@ p {
 	text-align: center;
     font-family: 'Whitney SSm A', 'Whitney SSm B';
     font-weight: 300;
-    font-size: 12px;    
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 60px;  
 }
 
 #page-footer address {

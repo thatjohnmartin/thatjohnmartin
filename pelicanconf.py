@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'John Martin'
-SITENAME = u'That John Martin'
+SITENAME = u'John Martin'
 SITEURL = ''
 
 PATH = 'content'
@@ -21,10 +21,10 @@ AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
 	('About', 'pages/about.html'),
-	('Email', 'john@lonepixel.com'),
-	('Twitter', 'http://twitter.com/johnm'),
-	('LinkedIn', 'http://www.linkedin.com/in/thatjohnmartin'),
-	('Github', 'http://github.com/thatjohnmartin'),
+    # ('Email', 'john@lonepixel.com'),
+	('@johnm', 'http://twitter.com/johnm'),
+    # ('LinkedIn', 'http://www.linkedin.com/in/thatjohnmartin'),
+    # ('Github', 'http://github.com/thatjohnmartin'),
 )
 
 DISPLAY_PAGES_ON_MENU = False

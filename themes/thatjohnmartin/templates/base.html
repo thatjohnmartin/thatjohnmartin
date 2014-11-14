@@ -41,13 +41,11 @@
 	<body id="index" class="home">
 
 		<header id="banner">
-			<!-- <img class="profile" src="{{ SITEURL }}/theme/images/profile.jpg"> -->
+            <img class="profile" src="{{ SITEURL }}/theme/images/profile.jpg">
 			<h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
 		</header><!-- /#banner -->
 
-		{% block content %}
-		{% endblock %}
-
+        {% if 0 %}
 		<nav id="menu">
 			<ul>
 				{% for title, link in MENUITEMS %}
@@ -66,6 +64,10 @@
 				{% endif %}
 			</ul>
 		</nav><!-- /#menu -->
+        {% endif %}
+
+		{% block content %}
+		{% endblock %}
 
 		<footer id="page-footer">
 			<address id="about" class="vcard body">

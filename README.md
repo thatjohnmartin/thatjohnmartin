@@ -8,7 +8,7 @@ Building and testing
 
 After creating a virtual env and installing requirements.txt, build the site with the following command:
 
-    pelican content
+    pelican -r content
 
 And to serve the site:
 
