@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'John Martin'
-SITENAME = u'John Martin'
+SITENAME = u'That John Martin'
 SITEURL = ''
 
 PATH = 'content'
@@ -33,7 +33,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 ARTICLE_PATHS = ['']
 STATIC_PATHS = ['images', 'css']

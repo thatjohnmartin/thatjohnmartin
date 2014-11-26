@@ -8,6 +8,9 @@
 			<!-- Fonts -->
 			<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7488232/778084/css/fonts.css" />
 
+            <!-- Icons -->
+            <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 			<!-- Local styles -->
 			<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
 
@@ -41,7 +44,7 @@
 	<body id="index" class="home">
 
 		<header id="banner">
-            <img class="profile" src="{{ SITEURL }}/theme/images/profile.jpg">
+            <a href="{{ SITEURL }}/"><img class="profile" src="{{ SITEURL }}/theme/images/helmet.svg"></a>
 			<h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
 		</header><!-- /#banner -->
 
@@ -72,7 +75,12 @@
 		<footer id="page-footer">
 			<address id="about" class="vcard body">
 				&copy; 2014 John Martin
-			</address><!-- /#about -->
+                <!--
+                <a class="social-link" href="http://twitter.com/johnm"><i class="fa fa-twitter"></i></a>
+                <a class="social-link" href="http://www.linkedin.com/in/thatjohnmartin"><i class="fa fa-linkedin"></i></a>
+                <a class="social-link" href="http://github.com/thatjohnmartin"><i class="fa fa-github"></i></a>
+                -->
+            </address><!-- /#about -->
 		</footer><!-- /#contentinfo -->
 	</body>
 </html>
