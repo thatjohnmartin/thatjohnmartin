@@ -18,4 +18,4 @@ And to serve the site:
 And to publish as a user page:
 
     ghp-import output
-    git push git@github.com:thatjohnmartin/thatjohnmartin.github.io.git gh-pages:master
+    git push -f git@github.com:thatjohnmartin/thatjohnmartin.github.io.git gh-pages:master
