@@ -15,7 +15,7 @@ And to serve the site:
     cd output
     python -m SimpleHTTPServer
 
-And to publish:
+And to publish as a user page:
 
     ghp-import output
-    git push origin gh-pages
+    git push git@github.com:thatjohnmartin/thatjohnmartin.github.io.git gh-pages:master

@@ -16,4 +16,4 @@ in Philosophy.
 Also, I like to [climb](https://www.flickr.com/photos/johnmartin78/sets/72157637739904054/)
 [rocks](https://www.flickr.com/photos/johnmartin78/sets/72157634961327591/).
 
-Email me at [john@lonepixel.com](mailto:john@lonepixel.com), go on.
+Email me at [john@lonepixel.com](mailto:john@lonepixel.com) or eat my tweets at [@johnm](http://twitter.com/johnm).
