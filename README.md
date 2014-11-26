@@ -14,3 +14,8 @@ And to serve the site:
 
     cd output
     python -m SimpleHTTPServer
+
+And to publish:
+
+    ghp-import output
+    git push origin gh-pages

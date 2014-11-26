@@ -36,5 +36,5 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 ARTICLE_PATHS = ['']
-STATIC_PATHS = ['images', 'css']
+STATIC_PATHS = ['images', 'css', 'CNAME']
 THEME = 'themes/thatjohnmartin'
