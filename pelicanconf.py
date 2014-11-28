@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'John Martin'
 SITENAME = u'That John Martin'
-SITEURL = ''
+SITEURL = 'http://thatjohnmartin.com'
 
 PATH = 'content'
 
@@ -12,10 +12,9 @@ TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
-# Feed generation is usually not desired when developing
+FEED_RSS = 'rss.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
@@ -38,3 +37,6 @@ RELATIVE_URLS = True
 ARTICLE_PATHS = ['']
 STATIC_PATHS = ['images', 'css', 'CNAME']
 THEME = 'themes/thatjohnmartin'
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
