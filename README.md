@@ -6,16 +6,15 @@ Not the other one.
 Building and testing
 --------------------
 
-After creating a virtual env and installing requirements.txt, build the site with the following command:
+After creating a virtual env and installing requirements.txt, set the build-and-watch running:
 
-    pelican -r content
+    make regenerate
 
-And to serve the site:
+And to clean, build, and publish:
+
+    make github
+    
+To serve the site locally on port 8000:
 
     cd output
     python -m SimpleHTTPServer
-
-And to publish as a user page:
-
-    ghp-import output
-    git push -f git@github.com:thatjohnmartin/thatjohnmartin.github.io.git gh-pages:master
