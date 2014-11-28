@@ -8,6 +8,11 @@ body {
 	margin: 30px auto 20px;
 }
 
+a {
+    color: #dd4231;
+    text-decoration: underline;
+}
+
 #banner {
 	text-align: center;
     margin-top: 36px;
@@ -125,6 +130,16 @@ h2.entry-title {
 h2.entry-title a {
     text-decoration: none;
     color: #3A414C;
+}
+
+h2.entry-title.link-post {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+h2.entry-title.link-post a {
+    color: #dd4231;
+    text-decoration: underline;
 }
 
 /* not yet updated... */
