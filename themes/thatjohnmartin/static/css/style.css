@@ -142,6 +142,23 @@ h2.entry-title.link-post a {
     text-decoration: underline;
 }
 
+h2.entry-title.link-post a.permalink {
+    color: #eee;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#post-list li:hover h2.entry-title.link-post a.permalink,
+.single-hentry:hover h2.entry-title.link-post a.permalink {
+    color: #ccc;
+}
+
+#post-list li h2.entry-title.link-post a.permalink:hover,
+.single-hentry h2.entry-title.link-post a.permalink:hover {
+    color: #dd4231;
+    text-decoration: underline;
+}
+
 /* not yet updated... */
 
 /*
