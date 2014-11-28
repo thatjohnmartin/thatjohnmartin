@@ -12,3 +12,4 @@ from pelicanconf import *
 
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
+USE_ANALYTICS = True
