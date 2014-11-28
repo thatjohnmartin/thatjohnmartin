@@ -29,13 +29,38 @@ MENUITEMS = (
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
 ARTICLE_PATHS = ['']
-STATIC_PATHS = ['images', 'css', 'CNAME']
+STATIC_PATHS = [
+    'images',
+    'CNAME',
+    'favicons/favicon.ico',
+    'favicons/apple-touch-icon.png',
+    'favicons/apple-touch-icon-57x57.png',
+    'favicons/apple-touch-icon-72x72.png',
+    'favicons/apple-touch-icon-76x76.png',
+    'favicons/apple-touch-icon-114x114.png',
+    'favicons/apple-touch-icon-120x120.png',
+    'favicons/apple-touch-icon-144x144.png',
+    'favicons/apple-touch-icon-152x152.png',
+]
+
+EXTRA_PATH_METADATA = {
+    'favicons/favicon.ico': {'path': 'favicon.ico'},
+    'favicons/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
+    'favicons/apple-touch-icon-57x57.png': {'path': 'apple-touch-icon-57x57.png'},
+    'favicons/apple-touch-icon-72x72.png': {'path': 'apple-touch-icon-72x72.png'},
+    'favicons/apple-touch-icon-76x76.png': {'path': 'apple-touch-icon-76x76.png'},
+    'favicons/apple-touch-icon-114x114.png': {'path': 'apple-touch-icon-114x114.png'},
+    'favicons/apple-touch-icon-120x120.png': {'path': 'apple-touch-icon-120x120.png'},
+    'favicons/apple-touch-icon-144x144.png': {'path': 'apple-touch-icon-144x144.png'},
+    'favicons/apple-touch-icon-152x152.png': {'path': 'apple-touch-icon-152x152.png'},
+}
+
 THEME = 'themes/thatjohnmartin'
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
