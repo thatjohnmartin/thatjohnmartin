@@ -60,10 +60,10 @@ a {
     margin-top: 0;
 }
 
-#post-list li {
+#post-list > li {
     border-bottom: 1px dotted #ccc;
 }
-#post-list li, .single-hentry {
+#post-list > li, .single-hentry {
     padding-top: 14px;
     padding-bottom: 20px;
 }
