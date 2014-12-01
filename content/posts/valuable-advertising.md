@@ -20,10 +20,10 @@ world. I think there are three:
 3.  _Advertising can support great content and endeavors._
 
     It's hard to do a controlled experiment here and be certain that a world devoid of advertising
-    would have less great content in it than a world with. However, it seems likely. Regardless, we
-    live in a world with substantial advertising infrastructure invplace, and, happily, that
-    infrastructure is able to provide financial support to many great journalists and artists and
-    adventurers and athletes.
+    would have less great content in it than a world full of advertising. However, it does seem
+    likely. Regardless, the world we live in has substantial advertising infrastructure in
+    place, and, happily, that infrastructure is able to provide financial support to many great
+    journalists and artists and adventurers and athletes.
 
 Perhaps not surprisingly, it seems that when most people are asked this question they immediately
 think about public service ads such as anti-smoking or AIDs awareness campaigns. I agree, but I
