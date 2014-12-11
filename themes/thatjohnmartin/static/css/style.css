@@ -81,6 +81,10 @@ abbr.published {
     color: #aaa;
 }
 
+.hentry img, .single-hentry img {
+    width: 100%;
+}
+
 p {
     line-height: 1.4;
 }
