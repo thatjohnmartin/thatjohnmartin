@@ -2,7 +2,7 @@ body {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
     font-weight: 300;
     font-style: normal;
-    font-size: 17px;
+    font-size: 15px;
     color: #333;
 	width: 600px;
 	margin: 30px auto 20px;
@@ -16,6 +16,7 @@ a {
 #banner {
 	text-align: center;
     margin-top: 36px;
+    margin-bottom: 15px;
     border-bottom: 1px dotted #ccc;
 }
 
@@ -91,27 +92,36 @@ p {
     margin-bottom: 60px;
 }
 
+#page-footer p {
+	text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    font-style: normal;
+}
+
+#page-footer p:last-of-type {
+    margin-bottom: 30px;
+}
+
 #page-footer .social-links {
     text-align: center;
     margin-bottom: 60px;
 }
 
-#page-footer a.social-link {
+#page-footer a {
     text-decoration: none;
-    color: #ccc;
+    color: #333;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#page-footer a.social-link:hover {
-    color: #333;
+#page-footer a:hover {
+    text-decoration: underline;
+    color: #dd4231;
 }
 
-#page-footer address {
-	text-align: center;
-    font-size: 12px;
-    color: #aaa;
-    font-style: normal;
+#page-footer a.social-link:hover {
+    text-decoration: none;
 }
 
 h1, h2 {
@@ -125,6 +135,7 @@ h2 {
 
 h2.entry-title {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2.entry-title a {
@@ -133,8 +144,9 @@ h2.entry-title a {
 }
 
 h2.entry-title.link-post {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
+    margin-top: 3px;
 }
 
 h2.entry-title.link-post a {
@@ -163,7 +175,17 @@ blockquote {
     border-left: 1px solid #ddd;
     margin-left: 20px;
     padding-left: 20px;
-    color: #666;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+hr {
+    border-top: 1px dotted #ccc;
+    border-bottom: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 680px) {

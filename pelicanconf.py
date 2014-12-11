@@ -66,4 +66,7 @@ THEME = 'themes/thatjohnmartin'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}/index.html'
+
 USE_ANALYTICS = False

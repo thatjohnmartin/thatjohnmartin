@@ -3,9 +3,9 @@ Date: 2014-12-08 14:11
 Tags: advertising
 Link: http://www.mondaynote.com/2014/12/08/the-rise-of-adblock-reveals-a-serious-problem-in-the-advertising-ecosystem/
 
-Frédéric Filloux of Monday Note deftly disects the rise of AdBlock Plus, the shitty advertising that
-feeds it, and the somewhat-beside-the-point legal action that French and German publishers are
-taking against AdBlock Plus creator, Eyeo GmbH:
+Frédéric Filloux of Monday Note examines the rise of AdBlock Plus, its for-sale whitelist, and the
+somewhat-beside-the-point legal action that French and German publishers are taking against
+AdBlock Plus creator, Eyeo GmbH. He calls out three issues:
 
 > One, a single private entity cannot decide what is acceptable or not for an entire sector.
 > Especially in such an opaque fashion.
