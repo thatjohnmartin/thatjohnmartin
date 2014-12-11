@@ -10,8 +10,8 @@ and [Paul Neto](http://blog.paulneto.com) and we built machine learning-based pr
 Prior to founding Crowd Science I was part of the engineering team at [comScore](http://www.comscore.com/) and
 [Cisco](http://www.cisco.com) as well as a handful of startups in Sydney and Toronto.
 
-I have a degree in Computer Science from the [University of Sydney](http://www.usyd.edu.au/) with a 
-unofficial minor in Philosophy. It turns out that free will does _not_ exist.
+I have a degree in Computer Science from the [University of Sydney](http://www.usyd.edu.au/) but
+spent most of my time doing Philosophy. Incidentally, it turns out that free will does _not_ exist.
 
 Also, I like to [climb](https://www.flickr.com/photos/johnmartin78/sets/72157637739904054/)
 [rocks](https://www.flickr.com/photos/johnmartin78/sets/72157634961327591/).
