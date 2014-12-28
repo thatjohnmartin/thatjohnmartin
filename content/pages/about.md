@@ -22,6 +22,8 @@ Also, I like to [climb](https://www.flickr.com/photos/johnmartin78/sets/72157637
 Email me at [john@lonepixel.com](mailto:john@lonepixel.com) or eat my tweets at
 [@johnm](http://twitter.com/johnm).
 
+I also write [Technically, Advertising](http://technicallyadvertising.com), a blog about advertising.
+
 ***
 
 This site is built with [Pelican](http://blog.getpelican.com).
