@@ -85,6 +85,11 @@ abbr.published {
     width: 100%;
 }
 
+.entry-content hr {
+    margin-left: 30%;
+    margin-right:30%;
+}
+
 p {
     line-height: 1.4;
 }

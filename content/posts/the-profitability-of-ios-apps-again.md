@@ -1,6 +1,7 @@
 Title: The Profitability of iOS Apps, Again
 Date: 2015-01-07 4:10
 Tags: tech
+Status: draft
 Link: http://daringfireball.net/linked/2015/01/07/panic-report
 
 John Gruber links to the [2014 Panic Report]() (which is an excellent read about a truly excellent
