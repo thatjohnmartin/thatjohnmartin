@@ -30,4 +30,13 @@ If so, then what is the appropriate that's true, then the question is: What shou
 enable these categories to 
 
 
+marco's post
+snell's response
+
+
 [2014 Panic Report]: http://www.panic.com/blog/the-2014-panic-report/
+[marco]: http://www.marco.org/2015/01/15/overcast-sales-numbers
+[monument]: http://blog.monumentvalleygame.com/blog/2015/1/15/monument-valley-in-numbers
+[unread]: http://blog.jaredsinclair.com/post/93118460565/a-candid-look-at-unreads-first-year
+[snell]: http://sixcolors.com/link/2015/01/overcasts-2014-sales-numbers/
+[dhh]: https://twitter.com/dhh/status/555968152295993344
