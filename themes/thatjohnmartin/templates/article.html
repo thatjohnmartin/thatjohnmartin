@@ -1,7 +1,5 @@
 {% extends "base.html" %}
 
-{% block title %}{{ article.title }} – {{ SITENAME }}{% endblock %}
-
 {% block head %}
     {{ super() }}
     {% for keyword in article.keywords %}
@@ -27,6 +25,9 @@
                         <a href="{{ article.link }}" rel="bookmark">{{ article.title }}</a>
                     </h2>
                 </header>
+                <footer class="post-info">
+                    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+                </footer><!-- /.post-info -->
             {% else %}
                 <header>
                     <h2 class="entry-title">
