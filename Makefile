@@ -47,4 +47,4 @@ github: publish
 	git push -f git@github.com:thatjohnmartin/thatjohnmartin.github.io.git $(GITHUB_PAGES_BRANCH):master
 	
 s3: publish
-    s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
+	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed

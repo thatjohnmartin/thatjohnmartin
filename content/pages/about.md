@@ -30,5 +30,5 @@ The awesome helmet icon at the top of the page is by Ruben Verhasselt from
 [The Noun Project](http://thenounproject.com/) and the Twitter icon in the footer is from
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
-The font used is [Whitney](http://www.typography.com/fonts/whitney/overview/) from the fine folks at
-Hoefler & Co.
+The font used is [Museo Sans](https://typekit.com/fonts/museo-sans) from the fine folks at
+exljbris.
