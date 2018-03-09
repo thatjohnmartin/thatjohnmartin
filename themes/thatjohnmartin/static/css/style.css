@@ -221,6 +221,15 @@ hr {
     margin-bottom: 3.0rem;
 }
 
+.entry-content h2 {
+    font-size: 1.7rem;
+    margin-bottom: -0.8rem;
+}
+
+.entry-content li {
+    margin-bottom: 0.5rem;
+}
+
 .entry-content hr {
     margin-left: 30%;
     margin-right:30%;

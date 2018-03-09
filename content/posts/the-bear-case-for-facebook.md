@@ -9,5 +9,3 @@ It wasn't really an important point in the context of the article, but I loved B
 > At this point, my most extreme Facebook bear case is that the service is the equivalent of an email address: something nearly everyone has because you can’t function without it, even if it’s not their preferred means of communication.
 
 I think this is spot on.
-
-(I love it when a writer drags a not-fully-formed thought into crisp reality. Or at least convinces you that that's what happened.)

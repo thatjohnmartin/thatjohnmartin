@@ -2,7 +2,7 @@ Title: Valuable Advertising
 Date: 2014-12-01 20:20
 Tags: advertising
 
-I've been thinking a lot about advertising in terms of [first principles][] lately. One of the
+I've been thinking a lot about advertising in terms of first principles lately. One of the
 things I've been wondering about is the ways in which advertising can be a net positive on the
 world. I think there are three:
 
@@ -28,5 +28,3 @@ world. I think there are three:
 Perhaps not surprisingly, it seems that when most people are asked this question they immediately
 think about public service ads such as anti-smoking or AIDs awareness campaigns. I agree, but I
 happen to think that those are simply instances of 1 and 2.
-
-[first principles]: http://en.wikipedia.org/wiki/First_principle
