@@ -1,15 +1,15 @@
 Title: About Me
 Slug: about
 
-![Hiking in Tuolumne]({filename}/images/yosemite-600.jpg)
+![Climbing in Pine Creek]({filename}/images/pine-creek-selfie-full-size.jpg)
 
-These days, I design and build things at [YuMe](http://www.yume.com), a digital video advertising
-behemoth that acquired my startup, Crowd Science. I founded Crowd Science in 2008 with
+These days, I design and build things at [Measure](http://measureprotocol.com). Previously I 
+was the CEO at Crowd Science, a company I founded in 2008 with
 [John Wainwright](http://en.wikipedia.org/wiki/John_Wainwright_(computer_scientist))
-and [Paul Neto](http://blog.paulneto.com) and we built machine learning-based prediction engines
-for online publishers.
+and [Paul Neto](http://blog.paulneto.com). At Crowd Science we built analytics and machine learning-based
+targeting engines for online publishers. We sold the company to [YuMe](http://www.yume.com) in 2013.
 
-Prior to founding Crowd Science I was part of the engineering team at
+Prior to founding Crowd Science I was part of the engineering teams at
 [comScore](http://www.comscore.com/) and [Cisco](http://www.cisco.com) as well as a handful of
 startups in Sydney and Toronto.
 
@@ -26,9 +26,5 @@ Email me at [john@lonepixel.com](mailto:john@lonepixel.com) or eat my tweets at
 
 This site is built with [Pelican](http://blog.getpelican.com).
 
-The awesome helmet icon at the top of the page is by Ruben Verhasselt from
-[The Noun Project](http://thenounproject.com/) and the Twitter icon in the footer is from
-[Font Awesome](http://fortawesome.github.io/Font-Awesome/).
-
-The font used is [Museo Sans](https://typekit.com/fonts/museo-sans) from the fine folks at
-exljbris.
+The helmet icon at the top of the page is by Ruben Verhasselt from [The Noun Project](http://thenounproject.com/)
+and the font used is [Museo Sans](https://typekit.com/fonts/museo-sans) from the fine folks at exljbris.

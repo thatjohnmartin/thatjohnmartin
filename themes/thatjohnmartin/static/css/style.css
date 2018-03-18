@@ -13,9 +13,16 @@ body {
     visibility: visible;
 }
 
-a {
+a, a:visited {
     color: #dd4231;
-    text-decoration: underline;
+    border-bottom: 1px solid #dd4231;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dd4231;
+    background: #dd42311c;
+    border-bottom: none;
 }
 
 .container {
@@ -27,23 +34,42 @@ a {
     margin-top: 3.6rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px dotted #ccc;
+    padding-bottom: 2.5rem;
 }
 
 #banner img.profile {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#banner .logo-link:hover {
+    background: none;
 }
 
 #banner h1 {
-    font-size: 2.0rem;
+    font-size: 3.4rem;
     font-weight: 300;
 	margin-top: 0.6rem;
-    margin-bottom: 3.6rem;
+    padding-bottom: 1.5rem;
 }
 
 #banner h1 a {
 	color: black;
-	text-decoration: none;
+}
+
+#banner p {
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 0 30px;
+    margin-top: 6px;
+}
+
+#banner a {
+    border-bottom: none;
+}
+
+#banner .header-links a:not(:last-of-type) {
+    margin-right: 10px;
 }
 
 #menu {
@@ -73,6 +99,7 @@ a {
 #post-list > li {
     border-bottom: 1px dotted #ccc;
 }
+
 #post-list > li, .single-hentry {
     padding-top: 1.4rem;
     padding-bottom: 2.0rem;
@@ -81,13 +108,14 @@ a {
     margin-bottom: 5.0rem;
 }
 
-#post-list :last-child {
+#post-list > :last-child {
 	border-bottom: none;
 }
 
 abbr.published {
     font-size: 1.2rem;
     color: #aaa;
+    text-decoration: none;
 }
 
 .hentry img, .single-hentry img {
@@ -95,7 +123,8 @@ abbr.published {
 }
 
 p {
-    line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -125,19 +154,19 @@ p {
 }
 
 #page-footer a {
-    text-decoration: none;
+    border-bottom: none;
     color: #333;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
 
 #page-footer a:hover {
-    text-decoration: underline;
     color: #dd4231;
 }
 
 #page-footer a.social-link:hover {
     text-decoration: none;
+    border-bottom: none;
 }
 
 h1, h2 {
@@ -157,25 +186,29 @@ h2.entry-title {
 }
 
 h2.entry-title a {
-    text-decoration: none;
     color: #3A414C;
+    border-bottom: none;
 }
 
 h2.entry-title.link-post {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 300;
     margin-top: 0.3rem;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
 }
 
 h2.entry-title.link-post a {
     color: #dd4231;
-    text-decoration: underline;
+    border-bottom: 1px solid #dd4231;
+}
+
+h2.entry-title.link-post a:hover {
+    border-bottom: none;
 }
 
 h2.entry-title.link-post a.permalink {
     color: #eee;
-    text-decoration: none;
+    border-bottom: none;
     margin-left: 0.5rem;
 }
 
@@ -187,7 +220,6 @@ h2.entry-title.link-post a.permalink {
 #post-list li h2.entry-title.link-post a.permalink:hover,
 .single-hentry h2.entry-title.link-post a.permalink:hover {
     color: #dd4231;
-    text-decoration: underline;
 }
 
 blockquote {
@@ -210,8 +242,8 @@ ol ol, ol ul, ul ol, ul ul, ol, ul {
 }
 
 li {
-    margin-bottom: 1.5rem;
-    font-size: 1.6rem;
+    margin-bottom: 1.7rem;
+    font-size: 1.7rem;
 }
 
 hr {
