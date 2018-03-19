@@ -3,15 +3,18 @@ Slug: about
 
 ![Climbing in Pine Creek]({filename}/images/pine-creek-selfie-full-size.jpg)
 
-These days, I design and build things at [Measure](http://measureprotocol.com). Previously I 
-was the CEO at Crowd Science, a company I founded in 2008 with
+I'm one of the founders of a project called [Measure](http://measureprotocol.com). We're building an
+open protocol that allows organizations to acquire data from individuals in a way that protects their
+privacy, pays them fairly, and incentivizes accuracy. Yes, it's on the blockchain. It's, you know,
+the future.
+
+Prior to that I was the CEO at Crowd Science, a company I founded in 2008 with
 [John Wainwright](http://en.wikipedia.org/wiki/John_Wainwright_(computer_scientist))
 and [Paul Neto](http://blog.paulneto.com). At Crowd Science we built analytics and machine learning-based
 targeting engines for online publishers. We sold the company to [YuMe](http://www.yume.com) in 2013.
 
-Prior to founding Crowd Science I was part of the engineering teams at
-[comScore](http://www.comscore.com/) and [Cisco](http://www.cisco.com) as well as a handful of
-startups in Sydney and Toronto.
+Occasionally, I also do some work on an advertising AI called [Project Hyper](http://projecthyper.com) with
+some other ad tech fugitives.
 
 I have a degree in Computer Science from the [University of Sydney](http://www.usyd.edu.au/) but
 spent most of my time doing Philosophy. It turns out that free will does _not_ exist.
